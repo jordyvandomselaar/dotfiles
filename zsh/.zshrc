@@ -158,4 +158,5 @@ alias ask='noglob ask'
 
 source ~/.zshrc.local
 
+eval "$(zoxide init zsh)"
 eval "$(starship init zsh)"
