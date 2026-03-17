@@ -8,6 +8,10 @@ if command -v tmux &> /dev/null && [ -z "$TMUX" ] && [ -z "$INSIDE_EMACS" ] && [
   tmux attach -t default 2>/dev/null || tmux new -s default
 fi
 
+# if command -v zellij &> /dev/null && [ -z "$ZELLIJ" ] && [ -z "$INSIDE_EMACS" ] && [ -z "$VSCODE_PID" ]; then
+#   zellij attach default 2>/dev/null || zellij -s default
+# fi
+
 # Path to your Oh My Zsh installation.
 export ZSH="$HOME/.oh-my-zsh"
 
